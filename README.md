@@ -1,60 +1,118 @@
 <div align="center">
 
-  <!-- Header Typing Animation -->
+  <!-- Dynamic Waving Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D2FF,50:3a7bd5,100:000000&height=220&section=header&text=Deepak%20Gupta&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Evidence%20Before%20Release%20%E2%80%A2%20QA%20%26%20Test%20Automation%20Specialist&descSize=16&descAlignY=62" width="100%" alt="Header Banner" />
+
+  <!-- Dynamic Typing Animation -->
   <a href="https://deepak-qa.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00D2FF&center=true&vCenter=true&width=620&lines=Hi+there%2C+I'm+Deepak+Gupta+%F0%9F%91%8B;Evidence+Before+Release+%F0%9F%94%8D;Manual+%26+Test+Automation+Engineer;Playwright+%E2%80%A2+Selenium+%E2%80%A2+Appium+%E2%80%A2+APIs" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1200&color=00D2FF&center=true&vCenter=true&width=650&lines=%E2%9A%A1+Evidence+before+release.;%F0%9F%A7%AA+Playwright+%E2%80%A2+Selenium+%E2%80%A2+Appium+%E2%80%A2+APIs;%F0%9F%9B%A1%EF%B8%8F+Breaking+edge+cases+before+users+ever+see+them.;%F0%9F%9A%80+Building+zero-flakiness+automated+test+suites." alt="Typing SVG" />
   </a>
 
-  <p align="center">
-    <strong>"Tell me what you are about to ship — a release, a flaky suite, or a product. I read the risk first."</strong>
-  </p>
+  <br/>
 
+  <!-- Quick Badges Ribbon -->
   <p align="center">
-    <a href="https://deepak-qa.vercel.app"><img src="https://img.shields.io/badge/Portfolio-deepak--qa.vercel.app-00D2FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio"/></a>
-    <a href="https://www.linkedin.com/in/deepak-gupta13/"><img src="https://img.shields.io/badge/LinkedIn-deepak--gupta13-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="mailto:deepak1322007@gmail.com"><img src="https://img.shields.io/badge/Email-deepak1322007%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-    <a href="https://github.com/13Deepak22"><img src="https://komarev.com/ghpvc/?username=13Deepak22&style=for-the-badge&color=24292e&label=Profile+Views" alt="Profile Views"/></a>
+    <a href="https://deepak-qa.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-deepak--qa.vercel.app-00D2FF?style=for-the-badge&logoColor=black" alt="Portfolio"/></a>
+    <a href="https://www.linkedin.com/in/deepak-gupta13/"><img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="mailto:deepak1322007@gmail.com"><img src="https://img.shields.io/badge/📫_Email-deepak1322007%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+    <a href="https://github.com/13Deepak22"><img src="https://komarev.com/ghpvc/?username=13Deepak22&style=for-the-badge&color=24292e&label=👀_Profile_Views" alt="Profile Views"/></a>
   </p>
 
 </div>
 
 ---
 
-### 🔍 About Me
+### 💻 `deepak.config.ts`
 
-```yaml
-name: Deepak Gupta
-focus: Quality Assurance & Automation Engineering
-philosophy: "Evidence before release"
-domains: [Fintech, Digital Lending, UPI & Payment Workflows, Web & Mobile Platforms]
-toolkit: [Playwright, Selenium, Appium, Postman, JMeter, TypeScript, Python]
-location: India
+```typescript
+import { QualityEngineer } from '@engineering/core';
+
+export const deepak: QualityEngineer = {
+  name: 'Deepak Gupta',
+  tagline: 'Evidence before release',
+  quote: 'Tell me what you are about to ship — a release, a flaky suite, or a product. I read the risk first.',
+  domains: ['Fintech & Payments', 'Digital Lending Lifecycles', 'Multi-Platform Consumer Apps'],
+  disciplines: {
+    automation: ['Playwright', 'Selenium WebDriver', 'Appium (Mobile)', 'Jest', 'Mocha'],
+    apiTesting: ['Postman', 'Apache JMeter', 'REST Assured', 'Contract Verification'],
+    languages:  ['TypeScript', 'JavaScript', 'Python', 'SQL', 'Bash'],
+    ciCdDevOps: ['GitHub Actions', 'Docker', 'Allure Reporting', 'CDP Session Hooks']
+  },
+  mission: 'Deliver zero-flakiness test architectures and ironclad release gates 🚀'
+};
 ```
-
-- 🎯 **Risk-First Quality**: Passionate about catching edge cases and logic gaps early. I analyze architecture and user flows to break software before users encounter bugs.
-- ⚡ **Web & Mobile Automation**: Crafting maintainable, clean automation frameworks using **Playwright**, **Selenium**, and **Appium** with Page Object architecture and resilient locators.
-- 🔌 **API & Backend Verification**: Deep testing of REST APIs, payment lifecycles, UPI flows, authorization tokens, and third-party webhook integrations.
-- 📊 **Reliable CI/CD Quality Gates**: Integrating automated regression suites with GitHub Actions, Allure reporting, and instant execution insights.
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### 🛠️ Interactive Tech Arsenal
 
 <div align="center">
 
-| Area | Tools & Technologies |
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=playwright,selenium,appium,postman,ts,js,python,postgres,githubactions,git,docker,linux,bash" alt="Skills" />
+  </a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| Track | Core Technologies & Methodologies |
 | :--- | :--- |
-| **Automation Frameworks** | ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-662D91?style=flat-square&logo=appium&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white) |
-| **API & Performance Testing** | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Apache JMeter](https://img.shields.io/badge/Apache_JMeter-D22128?style=flat-square&logo=apachejmeter&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=flat-square&logo=fastapi&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black) |
-| **Languages** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
-| **Testing Disciplines** | ![Manual Testing](https://img.shields.io/badge/Manual_Testing-007ACC?style=flat-square) ![Functional Testing](https://img.shields.io/badge/Functional_Testing-4CAF50?style=flat-square) ![Regression Testing](https://img.shields.io/badge/Regression_Testing-FF9800?style=flat-square) ![Mobile App Testing](https://img.shields.io/badge/Mobile_App_Testing-9C27B0?style=flat-square) |
-| **CI/CD & Collaboration** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Allure Report](https://img.shields.io/badge/Allure_Report-FFA000?style=flat-square&logo=qameta&logoColor=white) |
+| **🚀 Web & Mobile Automation** | `Playwright` • `Selenium` • `Appium` • `Page Object Model (POM)` • `CDP Attachments` • `Headless CI Execution` |
+| **🔌 API & Backend Integrity** | `Postman Collection Automation` • `Apache JMeter Load Testing` • `REST API Contract Checks` • `OAuth / JWT Flows` |
+| **🛡️ Quality Strategy & Exploratory** | `Risk-Based Testing` • `Boundary Value Analysis` • `Negative Scenarios` • `Payment & UPI Lifecycle Auditing` |
+| **⚙️ DevOps & Test Reporting** | `GitHub Actions CI/CD` • `Allure Multi-Environment Dashboards` • `Slack / Webhook Alerting` • `Docker Containers` |
 
 </div>
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 🎯 Engineering Pillars
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🛡️ Risk-First Quality Engineering</h4>
+      <ul>
+        <li>Deep functional exploration targeting payment edge cases, race conditions, and session handoffs.</li>
+        <li>Proactive shift-left strategy to catch architectural vulnerabilities before code hits staging.</li>
+        <li>Exhaustive negative and boundary probing on mission-critical workflows.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ Resilient Automation Architecture</h4>
+      <ul>
+        <li>Zero-flakiness test design utilizing event-driven explicit synchronization rather than static timeouts.</li>
+        <li>Hybrid Chrome DevTools Protocol (CDP) session attachments for live authenticated tab manipulation.</li>
+        <li>Clean modular Page Object Models (POM) designed for enterprise scalability.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔌 API & Performance Benchmarking</h4>
+      <ul>
+        <li>Automated validation of REST payloads, status codes, schemas, and token expiry cycles.</li>
+        <li>JMeter load profiling to uncover server bottlenecks and concurrency leaks under high throughput.</li>
+        <li>Automated mock interceptors and webhook lifecycle verifications.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📊 CI/CD & Actionable Intelligence</h4>
+      <ul>
+        <li>Parallelized test matrix execution on GitHub Actions pipelines.</li>
+        <li>Rich Allure test execution traces with automated network dumps and failure screenshots.</li>
+        <li>Real-time alerting and diagnostics integrated into release pipelines.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📈 Live GitHub Activity & Insights
 
 <div align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=13Deepak22&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D2FF&icon_color=00D2FF" alt="GitHub Stats" />
@@ -69,14 +127,33 @@ location: India
 
 ---
 
-### 🌐 Featured Portfolio & Presence
-
-- 🌍 **Portfolio**: [deepak-qa.vercel.app](https://deepak-qa.vercel.app)
-- 💼 **LinkedIn**: [linkedin.com/in/deepak-gupta13](https://www.linkedin.com/in/deepak-gupta13/)
-- 📬 **Direct Contact**: [deepak1322007@gmail.com](mailto:deepak1322007@gmail.com)
-
----
+### 🤝 Let's Connect
 
 <div align="center">
+
+  <p>Looking for insights on test automation architecture, flaky test elimination, or quality engineering?</p>
+
+  <a href="https://deepak-qa.vercel.app">
+    <img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-deepak--qa.vercel.app-00D2FF?style=for-the-badge&logoColor=black" alt="Portfolio"/>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/deepak-gupta13/">
+    <img src="https://img.shields.io/badge/LinkedIn-deepak--gupta13-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:deepak1322007@gmail.com">
+    <img src="https://img.shields.io/badge/Email-deepak1322007%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+  <!-- Waving Footer Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D2FF,50:3a7bd5,100:000000&height=110&section=footer" width="100%" alt="Footer Wave" />
+
   <sub><i>"Evidence before release — Quality is never an accident; it is always the result of intelligent effort."</i></sub>
+
 </div>
